@@ -10,16 +10,14 @@ The goal of this project is just to provide what's, in my opinion, a better API 
     - Better support for Region and Universe Name
 
 ## Getting Started
-1. Check the [API Docs](https://cmartinezledo.github.io/ogame-rest-api/)
+1. Check the [API Docs](x)
 2. Play with it using the Mocking Service (Check the API Docs)
-3. Any suggestions, feedback or questions, feel free to ask them in [OGame Origin](https://board.origin.ogame.gameforge.com/)
+3. Any suggestions, feedback or questions, feel free to ask them in [OGame Origin](/)
 
 ## Authors
 
-* **Carlos Martinez Ledo** - *Initial work* - [Charlie](https://board.origin.ogame.gameforge.com/index.php/User/10866-Charlie/)
+* **Kevin Offemaria** - *Initial work* - [Charlie]()
 
-
-See also the list of [contributors](https://github.com/cmartinezledo/ogame-rest-api/contributors) who participated in this project.
 
 ## Final Note
 Enjoy and provide feedback / contribute :)
