@@ -16,7 +16,7 @@ The goal of this project is just to provide what's, in my opinion, a better API 
 
 ## Authors
 
-* **Kevin Offemaria** - *Initial work* - [Charlie]()
+* **Kevin Offemaria** - *Initial work* - ()
 
 
 ## Final Note
