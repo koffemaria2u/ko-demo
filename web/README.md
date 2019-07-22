@@ -1,4 +1,4 @@
-# Faceless REST API
+# Faceless REST API demo
 
 ## Disclaimer
 The goal of this project is just to provide what's, in my opinion, a better API for the game I love. This is not a Gameforge supported project, just a simple contribution which I hope it can turn into something big one day. Please, do not hesitate to contact me if you have any further questions. 
