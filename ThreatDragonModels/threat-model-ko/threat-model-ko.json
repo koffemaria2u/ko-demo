@@ -9,9 +9,321 @@
     "diagrams": [
       {
         "title": "first-diargram",
-        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "diagramType": "STRIDE",
-        "id": 0
+        "thumbnail": "./public/content/images/thumbnail.cia.jpg",
+        "diagramType": "CIA",
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 114,
+                "y": 187
+              },
+              "angle": 0,
+              "id": "cf561f03-0e70-44f5-b8e2-e01aeff77736",
+              "z": 2,
+              "hasOpenThreats": false,
+              "description": "Myself",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kevin's email"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1014,
+                "y": 191
+              },
+              "angle": 0,
+              "id": "f1469fd3-a6e8-42bc-af1e-8051342d222b",
+              "z": 5,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "modelType": "CIA",
+                  "description": "The hacker will try all avenues of access to penetrate the target email security",
+                  "mitigation": "Password, MFA",
+                  "type": "Confidentiality",
+                  "title": "Evil Hacker",
+                  "threatId": "1db0ca50-0756-4a36-b134-0e25cb7eb7a0"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Evil Hacker"
+                },
+                ".element-text": {
+                  "class": "element-text hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 330,
+                "y": 46
+              },
+              "target": {
+                "x": 328,
+                "y": 434
+              },
+              "vertices": [],
+              "id": "9de61144-12b1-4854-bfe9-8639ab50be11",
+              "z": 6,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "password",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 667,
+                "y": 247
+              },
+              "target": {
+                "x": 667,
+                "y": 439
+              },
+              "id": "f9fda52f-6b17-46ed-8559-0e2c97374c58",
+              "z": 6,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "phone pin",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "vertices": [],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 409,
+                "y": 66
+              },
+              "angle": 0,
+              "id": "1b7abd70-09b7-4af9-84be-0e4ac932d598",
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kevin's Laptop"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 665,
+                "y": 6
+              },
+              "target": {
+                "x": 668,
+                "y": 238
+              },
+              "vertices": [],
+              "id": "02a70c2c-89da-4bfd-8d3a-f45d48ac3ced",
+              "z": 10,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "laptop PW/MFA",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "1b7abd70-09b7-4af9-84be-0e4ac932d598"
+              },
+              "target": {
+                "id": "f1469fd3-a6e8-42bc-af1e-8051342d222b"
+              },
+              "vertices": [],
+              "id": "1e661309-9272-43c5-8b58-7eb7974a3e05",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Steal Laptop",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 411,
+                "y": 189
+              },
+              "angle": 0,
+              "id": "17cac0c1-8d67-4367-8076-d4a34bed07d9",
+              "z": 12,
+              "hasOpenThreats": false,
+              "threats": [],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Reset Email Password"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 924,
+                "y": 420
+              },
+              "angle": 0,
+              "id": "13fffead-4d3e-4dfa-8aaf-c8fc6c9d65a5",
+              "z": 13,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 10"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 458,
+                "y": 420
+              },
+              "angle": 0,
+              "id": "b6d4608a-a15b-4d55-a8cc-0b4df3ce6d62",
+              "z": 14,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Kevin's Phone"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 1174
+        }
       }
     ],
     "reviewer": "professor_jules"
