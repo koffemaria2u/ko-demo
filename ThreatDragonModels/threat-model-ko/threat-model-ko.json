@@ -240,6 +240,43 @@
               }
             },
             {
+              "type": "tm.Flow",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "id": "b6d4608a-a15b-4d55-a8cc-0b4df3ce6d62"
+              },
+              "target": {
+                "id": "f1469fd3-a6e8-42bc-af1e-8051342d222b"
+              },
+              "id": "d6bab2f4-2ec0-474b-a48d-988210870692",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Steal Phone",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 11,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
               "type": "tm.Store",
               "size": {
                 "width": 160,
@@ -273,34 +310,8 @@
                 "height": 100
               },
               "position": {
-                "x": 924,
-                "y": 420
-              },
-              "angle": 0,
-              "id": "13fffead-4d3e-4dfa-8aaf-c8fc6c9d65a5",
-              "z": 13,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "process 10"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Process",
-              "size": {
-                "width": 100,
-                "height": 100
-              },
-              "position": {
-                "x": 458,
-                "y": 420
+                "x": 438,
+                "y": 334
               },
               "angle": 0,
               "id": "b6d4608a-a15b-4d55-a8cc-0b4df3ce6d62",
